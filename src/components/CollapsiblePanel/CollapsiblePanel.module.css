@@ -1,0 +1,18 @@
+.button {
+  width: 100%;
+  border-radius: var(--mantine-radius-md);
+  &:hover {
+    background-color: light-dark(
+      var(--mantine-color-gray-1),
+      var(--mantine-color-dark-4)
+    );
+  }
+}
+
+.icon {
+  transition: transform 200ms ease;
+  color: var(--mantine-color-gray-text);
+  &[data-opened="true"] {
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,16 @@
+.root {
+  position: absolute;
+  right: var(--mantine-spacing-lg);
+  bottom: var(--mantine-spacing-lg);
+  box-shadow: var(--mantine-shadow-md);
+}
+
+.wrapper {
+  max-width: rem(1000);
+  height: 40px;
+  position: fixed;
+  left: var(--app-shell-navbar-width);
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}

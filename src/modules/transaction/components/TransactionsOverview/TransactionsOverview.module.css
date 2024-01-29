@@ -1,0 +1,22 @@
+.root {
+  flex-grow: 1;
+  min-width: 0;
+  @media (min-width: $mantine-breakpoint-md) {
+    width: rem(300);
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+  @media (min-width: $mantine-breakpoint-xl) {
+    width: rem(540);
+  }
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--mantine-spacing-md);
+
+  @media (min-width: $mantine-breakpoint-xl) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

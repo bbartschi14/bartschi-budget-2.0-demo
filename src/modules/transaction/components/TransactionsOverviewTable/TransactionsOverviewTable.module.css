@@ -1,0 +1,32 @@
+.titleContainer {
+  background: light-dark(
+    var(--mantine-color-gray-2),
+    var(--mantine-color-dark-6)
+  );
+  border: 1px solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  padding: var(--mantine-spacing-xs);
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--mantine-spacing-xs);
+  color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-text));
+}
+
+.root {
+  align-self: start;
+  &[data-viewtype="yearly"] {
+    outline: 1px solid var(--mantine-primary-color-filled);
+  }
+}
+
+.table {
+  td {
+    padding: rem(6);
+  }
+}
+
+.tableRoot {
+  height: auto !important;
+}

@@ -1,0 +1,13 @@
+.iconWrapper {
+  flex-shrink: 0;
+  padding: rem(10);
+  pointer-events: none;
+}
+
+.right {
+  flex-grow: 1;
+}
+
+/* .card {
+background: light-dark(var(--mantine-color-white), var(--mantine-color-dark-6))
+} */

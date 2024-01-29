@@ -1,0 +1,23 @@
+.input {
+  text-align: center;
+}
+
+.arrow[data-flip="true"] {
+  transform: rotate(180deg);
+}
+
+.group {
+  gap: var(--mantine-spacing-sm);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    gap: var(--mantine-spacing-xs);
+  }
+}
+
+.root {
+  width: rem(220);
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    width: auto;
+  }
+}

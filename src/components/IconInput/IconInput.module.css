@@ -1,0 +1,9 @@
+.dropdown {
+  max-height: rem(300);
+  overflow: auto;
+  box-shadow: var(--mantine-shadow-md);
+}
+
+.left {
+  flex-grow: 1;
+}

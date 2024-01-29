@@ -1,0 +1,16 @@
+.left {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.group {
+  @media (min-width: $mantine-breakpoint-md) {
+    flex-wrap: nowrap;
+  }
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

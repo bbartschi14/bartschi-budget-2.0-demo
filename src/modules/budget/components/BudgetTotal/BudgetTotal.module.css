@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-xs);
+  overflow: auto;
+}
+
+.wrapper {
+  max-width: rem(800);
+
+  position: fixed;
+  left: var(--app-shell-navbar-width);
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  padding: var(--mantine-spacing-md) rem(16);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    left: 0;
+  }
+}

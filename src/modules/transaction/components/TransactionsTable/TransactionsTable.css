@@ -1,0 +1,9 @@
+.mantine-datatable-empty-state {
+  padding-top: calc(2.29345703125rem * var(--mantine-scale)) !important;
+  transition: none;
+}
+
+.mantine-datatable-header-cell-sortable-text {
+  user-select: none;
+  -webkit-user-select: none;
+}

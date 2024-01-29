@@ -1,0 +1,7 @@
+.arrow {
+  transition: transform 150ms ease;
+}
+
+.arrow[data-type="descend"] {
+  transform: rotate(180deg);
+}

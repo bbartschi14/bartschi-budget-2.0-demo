@@ -1,0 +1,47 @@
+.table {
+  background: var(--mantine-color-body);
+  border-radius: var(--mantine-radius-sm);
+}
+
+.td {
+  padding: var(--mantine-spacing-xs);
+}
+
+.badge {
+  width: 100%;
+  max-width: rem(400);
+  /* box-shadow: var(--mantine-shadow-sm); */
+}
+
+.td1 {
+  padding-right: 0;
+}
+
+.td2 {
+  width: rem(128);
+}
+
+.td3 {
+  width: rem(40);
+  padding: 0;
+}
+
+.tdTags {
+  width: rem(120);
+  text-align: center;
+  padding-right: 0;
+}
+
+.formatter {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.input {
+  text-align: center;
+}
+
+.numberText {
+  color: var(--mantine-color-text);
+}

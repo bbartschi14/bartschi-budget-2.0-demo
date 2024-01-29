@@ -1,0 +1,14 @@
+.root {
+  display: grid;
+  grid-template-columns: 1fr 1fr rem(36);
+  gap: var(--mantine-spacing-sm);
+  padding: var(--mantine-spacing-sm);
+  background: var(--mantine-color-body);
+  border-radius: var(--mantine-radius-sm);
+  box-shadow: var(--mantine-shadow-sm);
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    gap: var(--mantine-spacing-xs);
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,9 @@
+.navbar {
+  background-color: light-dark(
+    var(--mantine-primary-color-4),
+    var(--mantine-color-dark-6)
+  );
+  gap: var(--mantine-spacing-sm);
+  justify-content: space-between;
+  z-index: 1000;
+}
